@@ -1,0 +1,260 @@
+{
+  "albums": [
+    {
+      "coverphoto": "http://i3.kym-cdn.com/entries/icons/original/000/007/508/watch-out-we-got-a-badass-over-here-meme.png",
+      "id": 1,
+      "name": "Memes"
+        
+
+    },
+    {
+      "coverphoto": "https://scontent.flas1-2.fna.fbcdn.net/v/t1.0-9/10999603_1641913762722895_4592865175152286465_n.jpg?oh=6b16915013ea56c81ec493f47c7be398&oe=58A06A3F",
+      "id": 2,
+      "name": "ProfilePics"
+
+
+    },
+    {
+      "coverphoto": "https://inspirationfeeed.files.wordpress.com/2014/10/great-sand-dunes-national-park-co-by-cinematic-photography.jpg",
+      "id": 3,
+      "name": "Vacation 2016"
+        
+    },
+    {
+      "coverphoto": "https://thumb1.shutterstock.com/display_pic_with_logo/124564/269881667/stock-photo-quarell-in-a-family-sad-husband-on-the-front-and-his-wife-and-two-crying-upset-daughters-in-the-269881667.jpg",
+      "id": 4,
+      "name": "Family"
+    },
+    {
+      "coverphoto": "http://www.kimballstock.com/pix/CAT/03/CAT-03-JE0214-01P.JPG",
+      "id": 5,
+      "name": "Pets"
+    },
+    {
+      "coverphoto": "https://www.placecage.com/c/460/300",
+      "id": 6,
+      "name": "Nicholas Cage"
+        
+    }
+  ],
+
+"photos":[
+          {
+          "id": 1,
+          "albumid": 1,
+          "name": "yaoming",
+          "url": "http://i0.kym-cdn.com/photos/images/newsfeed/000/101/781/Y0UJC.png"
+          },
+          {
+            "id": 2,
+            "albumid": 1,
+            "name": "yuno",
+            "url": "https://cdn.meme.am/instances/500x/65778860.jpg"
+          },
+          {
+            "id": 3,
+            "albumid": 1,
+            "name": "donaldpepe",
+            "url": "https://www.surf.co/images/pepe6.jpg?image=cdn"
+          },
+          {
+            "id": 4,
+            "albumid": 1,
+            "name": "dono",
+            "url": "http://i3.kym-cdn.com/entries/icons/original/000/007/508/watch-out-we-got-a-badass-over-here-meme.png"
+          },
+          {
+            "id": 5,
+            "albumid": 1,
+            "name": "troll",
+            "url": "https://s3.amazonaws.com/colorslive/jpg_512x512/83490-y545c8q2xI6zlHa0.jpg"
+          },
+          {
+            "id": 6,
+            "albumid": 1,
+            "name": "raptor",
+            "url": "http://www.azmeme.com/wp-content/uploads/2016/07/You-The-Waiter.jpg"
+          },
+          {
+          "id": 7,
+          "albumid": 2,
+          "name": "profile1",
+          "url": "https://scontent.flas1-2.fna.fbcdn.net/v/t1.0-9/10999603_1641913762722895_4592865175152286465_n.jpg?oh=6b16915013ea56c81ec493f47c7be398&oe=58A06A3F"
+          },
+          {
+            "id": 8,
+            "albumid": 2,
+            "name": "profile2",
+            "url": "https://scontent.flas1-2.fna.fbcdn.net/t31.0-8/10557071_1477413619172911_5395047617308730362_o.jpg"
+          },
+          {
+            "id": 9,
+            "albumid": 2,
+            "name": "profile3",
+            "url": "https://scontent.flas1-2.fna.fbcdn.net/v/t1.0-9/10301297_1448728562041417_5721575084175060963_n.jpg?oh=03c1628c50a921bd70913b0d5969309c&oe=58A92239"
+          },
+          {
+            "id": 10,
+            "albumid": 2,
+            "name": "profile4",
+            "url": "https://scontent.flas1-2.fna.fbcdn.net/t31.0-8/1599323_1403117056602568_1357484416_o.jpg"
+          },
+          {
+            "id": 11,
+            "albumid": 2,
+            "name": "profile5",
+            "url": "https://scontent.flas1-2.fna.fbcdn.net/v/t1.0-9/936666_1477300819184191_7851149796826326541_n.jpg?oh=2d55fe57d48fe2be35adb5948da9c072&oe=5898090D"
+          },
+          {
+            "id": 12,
+            "albumid": 2,
+            "name": "profile6",
+            "url": "https://scontent.flas1-2.fna.fbcdn.net/t31.0-8/13995388_1780847168829553_6505390378208544127_o.jpg"
+          },
+          {
+            "id": 13,
+            "albumid": 3,
+            "name": "desert",
+            "url": "https://inspirationfeeed.files.wordpress.com/2014/10/great-sand-dunes-national-park-co-by-cinematic-photography.jpg"
+          },
+          {
+            "id": 14,
+            "albumid": 3,
+            "name": "waterfall",
+            "url": "http://digital-photography-school.com/wp-content/uploads/2012/05/20110426-Glaring-Omission-Crystal-Creek-Falls.jpg"
+          },
+          {
+            "id": 15,
+            "albumid": 3,
+            "name": "forest",
+            "url": "http://www.pxleyes.com/blog/wp-content/uploads/forest/5.jpg"
+          },
+          {
+            "id": 16,
+            "albumid": 3,
+            "name": "snow",
+            "url": "http://www.lightstalking.com/wp-content/uploads/2010/09/snowfall.jpg"
+          },
+          {
+            "id": 17,
+            "albumid": 3,
+            "name": "jungle",
+            "url": "https://s-media-cache-ak0.pinimg.com/originals/49/a0/b6/49a0b64dd56cb6a891d0c0c26c204718.jpg"
+          },
+          {
+            "id": 18,
+            "albumid": 3,
+            "name": "lasvegas",
+            "url": "http://philip.greenspun.com/images/pcd2898/paris-las-vegas-14.4.jpg?"
+          },
+          {
+            "id": 19,
+            "albumid": 4,
+            "name": "family1",
+            "url": "http://restorationroadchurch.org/wp-content/uploads/2016/10/family-stock-pictures-i5.jpg"
+          },
+          {
+            "id": 20,
+            "albumid": 4,
+            "name": "family2",
+            "url": "http://stockfresh.com/files/f/feverpitch/m/29/600779_stock-photo-happy-mixed-race-family-posing-for-a-portrait.jpg"
+          },
+          {
+            "id": 21,
+            "albumid": 4,
+            "name": "family3",
+            "url": "https://www.bmow.org/wp-content/uploads/2015/01/300DPIstock-photo-15142796-senior-man-sitting-with-his-daughter-and-grandson.jpg"
+          },
+          {
+            "id": 22,
+            "albumid": 4,
+            "name": "family4",
+            "url": "https://rampages.us/izdivine/wp-content/uploads/sites/8175/2015/10/26.jpg"
+          },
+          {
+            "id": 23,
+            "albumid": 4,
+            "name": "family5",
+            "url": "http://www.newdesignfile.com/postpic/2011/08/hispanic-american-family_384784.jpg"
+          },
+          {
+            "id": 24,
+            "albumid": 4,
+            "name": "family6",
+            "url": "https://thumb1.shutterstock.com/display_pic_with_logo/124564/269881667/stock-photo-quarell-in-a-family-sad-husband-on-the-front-and-his-wife-and-two-crying-upset-daughters-in-the-269881667.jpg"
+          },
+          {
+            "id": 25,
+            "albumid": 5,
+            "name": "pet1",
+            "url": "https://media.licdn.com/media/AAEAAQAAAAAAAANKAAAAJDBlNTg1ZGE1LTE2NGYtNDcxMi04N2FhLTc4YzMyYzQ4OGUzZA.png"
+          },
+          {
+            "id": 26,
+            "albumid": 5,
+            "name": "pet2",
+            "url": "https://static.pexels.com/photos/5018/animal-dog-pet-brown.jpg"
+          },
+          {
+            "id": 27,
+            "albumid": 5,
+            "name": "pet3",
+            "url": "https://static.pexels.com/photos/1007/animal-dog-pet.jpg"
+          },
+          {
+            "id": 28,
+            "albumid": 5,
+            "name": "pet4",
+            "url": "http://www.kimballstock.com/pix/CAT/03/CAT-03-JE0214-01P.JPG"
+          },
+          {
+            "id": 29,
+            "albumid": 5,
+            "name": "pet5",
+            "url": "https://static.pexels.com/photos/59523/pexels-photo-59523.jpeg"
+          },
+          {
+            "id": 30,
+            "albumid": 5,
+            "name": "pet6",
+            "url": "https://static.pexels.com/photos/7720/night-animal-dog-pet.jpg"
+          },
+          {
+            "id": 31,
+            "name": "cage1",
+            "albumid": 6,
+            "url": "https://www.placecage.com/c/460/300"
+          },
+          {
+            "id": 32,
+            "name": "cage2",
+            "albumid": 6,
+            "url": "https://www.placecage.com/gif/284/196"
+          },
+          {
+            "id": 33,
+            "name": "cage3",
+            "albumid": 6,
+            "url": "https://www.placecage.com/gif/200/300"
+          },
+          {
+            "id": 34,
+            "name": "cage4",
+            "albumid": 6,
+            "url": "https://www.placecage.com/300/200"
+          },
+          {
+            "id": 35,
+            "name": "cage5",
+            "albumid": 6,
+            "url": "https://www.placecage.com/g/200/300"
+          },
+          {
+            "id": 36,
+            "name": "cage6",
+            "albumid": 6,
+            "url": "https://www.placecage.com/c/500/500"
+          }
+
+  ]
+}
