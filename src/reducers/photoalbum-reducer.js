@@ -1,10 +1,10 @@
-const albumsDefaultState = {
+const defaultState = {
 	albums: [],
 	photos: []
 }
 
 
-export default function(state=albumsDefaultState, action) {
+export default function(state=defaultState, action) {
 	switch (action.type) {
 		case 'GET_ALBUMS':
 			return {...state, albums: action.albums}

@@ -21,16 +21,17 @@ const photosContainer = React.createClass({
     )
   },
   renderImages: function(){
-    getImages(this.props.params.id).then(resp => {
-      this.setState({
-        photos: resp.data
-        
+    getImages()
+      store.subscribe(() => {
+      	const appState= store.getState()
+      	this.setState({
+      		photos: appState.photos
+      	})
       })
-    console.log(resp.data)})
   },
   render: function () {
     return (
-      <Albums rerender={this.renderImages} albums={this.state.albums} photos={this.state.photos} />
+      <Albums render={this.renderImages} albums={this.state.albums} photos={this.state.photos} />
     )
   }
 })
