@@ -12,11 +12,21 @@ export function getAlbums() {
 	})
 }
 
-export function getImages(id) {
-	return axios.get(`photos?albumid=${id}`).then(resp => {
+export function getImages(albumid) {
+	return axios.get(`photos?albumid=${albumid}`).then(resp => {
 		store.dispatch({
-			type: 'GET_PICTURES',
+			type: 'GET_PHOTOS',
 			photos: resp.data
+		})
+
+	})
+}
+
+export function getImage(id) {
+	return axios.get(`photos?id=${id}`).then(resp => {
+		store.dispatch({
+			type: 'GET_PHOTO',
+			photos: resp.data 
 		})
 	})
 }

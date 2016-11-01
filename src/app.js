@@ -11,7 +11,7 @@ import App from 'layouts/app';
 // UI
 import Home from 'ui/home';
 import Albums from 'ui/albums';
-// import Photos from 'ui/photos';
+import Photos from 'ui/photos';
 
 
 ReactDOM.render((
@@ -19,9 +19,7 @@ ReactDOM.render((
     <Route component={App}>
     <Route path="/" component={Home} />
     <Route path="/albums/:id" component={Albums} />
+    <Route path="/photos/:id" component={Photos} />
    	</Route>
   </Router>
 ), document.getElementById('app')); 
-
-
-    // <Route path="/photos/" component={Photos} />

@@ -10,14 +10,17 @@ const HomeContainer = React.createClass({
     }
   },
  componentWillMount: function() {
-    getAlbums()
-    store.subscribe(() => {
+   getAlbums()
+   this.unsubscribe = store.subscribe(() => {
       const appState = store.getState()
       this.setState({
         albums: appState.albums
         })
       }
     )
+  },
+  componentWillUnmount: function() {
+    this.unsubscribe()
   },
   render: function () {
     return (
@@ -34,7 +37,10 @@ const Home = React.createClass({
       ]
     }
   },
+  goBack: function() {
+    },
   render: function() {
+    
     return (
       <div className="overall_container">
       	<div className="home__header">My Albums</div>
@@ -43,7 +49,7 @@ const Home = React.createClass({
       			return (
               <div className="keywrapper" key={album.id}>
       				  <Link to={`/albums/${album.id}`}>
-        					<div className="album__container"><img className="cover" src={album.coverphoto} />
+        					<div className="album__container"><div className="imagecontainer"><img className="cover" src={album.coverphoto} /></div>
   			      			<div className="album__name">{album.name}</div>
   			      		</div>
         				</Link>
