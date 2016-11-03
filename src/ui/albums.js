@@ -39,6 +39,10 @@ componentWillReceiveProps: function(props) {
 })
 
 const Albums = React.createClass({
+	navToAlbumAdd: function(e) {
+		e.preventDefault()
+		hashHistory.push('/albums/add')
+	},
 	render: function () {
 		return (
 			<div>
@@ -61,6 +65,7 @@ const Albums = React.createClass({
 								)
 						})}
 					</div>
+					<Link to={this.navToAlbumAdd}><div className="addAlbumButton"><i className="fa fa-plus-circle" aria-hidden="true"></i>Add Photos</div></Link>
 				</div>
 			</div>
 		)

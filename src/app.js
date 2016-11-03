@@ -13,13 +13,15 @@ import Home from 'ui/home';
 import Albums from 'ui/albums';
 import Photos from 'ui/photos';
 import addAlbum from 'ui/addAlbum';
+import addPhoto from 'ui/addPhoto';
 
 
 ReactDOM.render((
   <Router history={hashHistory}>
-    <Route component={App}>
+    <Route component={App}> 
     <Route path="/" component={Home} />
-    <Route path="/addalbum" component={addAlbum}/>
+    <Route path="/albums/add" component={addAlbum}/>
+    <Route path="/albums/:albumid/add" component={addPhoto} />
     <Route path="/albums/:id" component={Albums} />
     <Route path="/photos/:id" component={Photos} />
    	</Route>

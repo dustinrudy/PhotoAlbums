@@ -1,5 +1,6 @@
 import axios from 'axios'
 import store from 'store'
+import {hashHistory} from 'react-router'
 
 axios.defaults.baseURL = 'http://localhost:8001/'
 

@@ -57,7 +57,7 @@ const Home = React.createClass({
 
               </div>
       			)
-      		})}<Link to="/addalbum"><div className="addAlbumButton"><i className="fa fa-plus-circle" aria-hidden="true"></i>Add Album</div></Link>
+      		})}<Link to="/albums/add"><div className="addAlbumButton"><i className="fa fa-plus-circle" aria-hidden="true"></i>Add Album</div></Link>
       	</div>
 
       </div>
