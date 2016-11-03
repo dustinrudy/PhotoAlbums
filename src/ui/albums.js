@@ -23,6 +23,10 @@ const photosContainer = React.createClass({
       }
     )
 },
+componentWillReceiveProps: function(props) {
+    this.props
+    getImages(props.params.id)
+},
   componentWillUnmount: function() {
   	this.unsubscribe()
   },
@@ -35,22 +39,16 @@ const photosContainer = React.createClass({
 })
 
 const Albums = React.createClass({
-	clickHandler: function(photo) {
-		getImages(photo.id)
-	},
-	goBack: function() {
-		hashHistory.goBack()
-	},
 	render: function () {
 		return (
 			<div>
-				<div className="home__header"><i onClick={this.goBack} className="fa fa-arrow-circle-left" aria-hidden="true"></i>My Photos</div>
+				<Link to="/"><div className="home__header"><i className="fa fa-arrow-circle-left" aria-hidden="true"></i>My Photos</div></Link>
 				<div className="sidebar_photo_container">
 					<div className="sidebar">
 						<ul>
 							{this.props.albums.map(album => {
 								return (
-								<li onClick={() => this.clickHandler(album)} key={album.id} className="sidebar__list"><Link to={`/albums/${album.id}`}>{album.name}</Link></li>
+								<li key={"a" + album.id} className="sidebar__list"><Link to={`/albums/${album.id}`}>{album.name}</Link></li>
 								)
 							})}
 						</ul>
@@ -59,7 +57,7 @@ const Albums = React.createClass({
 					<div className="photolist">
 						{this.props.photos.map(photo => {
 							return (
-								<Link to={`/photos/${photo.id}`}><div key={photo.id} className="photo_container"><img className="cover" src={photo.url}/></div></Link>
+								<Link key={"p" + photo.id} to={`/photos/${photo.id}`}><div className="photo_container"><img className="cover" src={photo.url}/></div></Link>
 								)
 						})}
 					</div>

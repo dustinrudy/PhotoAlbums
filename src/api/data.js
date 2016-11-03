@@ -23,10 +23,22 @@ export function getImages(albumid) {
 }
 
 export function getImage(id) {
-	return axios.get(`photos?id=${id}`).then(resp => {
+	return axios.get(`photos/${id}`).then(resp => {
 		store.dispatch({
 			type: 'GET_PHOTO',
-			photos: resp.data 
+			photo: resp.data 
 		})
+	})
+}
+
+export function addAlbum(albumObj) {
+	return axios.post('/albums', albumObj).then(resp => {
+		hashHistory.push('/albums')
+	})
+}
+
+export function addPhoto(photoObj) {
+	return axios.post('photos', photoObj).then(resp => {
+		hashHistory.push(`/albums/${photoObj.albumId}`)
 	})
 }

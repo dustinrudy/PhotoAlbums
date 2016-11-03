@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, hashHistory } from 'react-router';
 import {getAlbums} from 'api/data'
 import store from 'store'
+import fonts from 'assets/font-awesome/css/font-awesome.css'
 
 const HomeContainer = React.createClass({
   getInitialState: function () {
@@ -53,9 +54,10 @@ const Home = React.createClass({
   			      			<div className="album__name">{album.name}</div>
   			      		</div>
         				</Link>
+
               </div>
       			)
-      		})}
+      		})}<Link to="/addalbum"><div className="addAlbumButton"><i className="fa fa-plus-circle" aria-hidden="true"></i>Add Album</div></Link>
       	</div>
 
       </div>
